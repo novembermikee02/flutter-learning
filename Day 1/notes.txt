@@ -1,0 +1,61 @@
+
+----------------- 06/01/2023 --------------
+
+* What is flutter -->
+      A "tool" that allows you to build native cross platform (ios/android) apps with one programming language and codebase
+
+
+|----                                 ----|
+|     SDK - Software development kit      |-------> You could say a collection of tools that allows you to write one codebaseo
+|----                 |               ----|           or use one codevase with
+                      |
+                      V
+      Tools is compile your code native machine
+      code + develop with ease.
+
+
+* What is Dart -->
+      Focused on frontEnd (mobile, apps, web), user interface (UI) developemnt
+
+
+* How is flutter/Dart "transforment" to native apps?
+
+                                    |---------------------|
+                                    |    flutter API      |  <----------- (API) Application programming language
+                                    |---------------------|
+                                                |
+                                       Utility  |  Widgets
+                                                |
+                                                V
+|---------------------|             |---------------------|
+| your widgets code   |    <------  |        Dart         |  <----------- (API) Application programming language
+|---------------------|             |---------------------|
+                                                |  
+                                                |
+                                                V
+                              -------------------------------------            
+                              |                                   |
+                              V                                   v
+                        Native Code                         Native Code 
+                  |---------------------|             |---------------------|
+                  |       Android       |             |        Apple        |  
+                  |---------------------|             |---------------------|
+
+
+* CMD - Create Project
+
+      Path -->
+            - cd developemnt
+            - flutter create first_app
+
+
+* Mateial Design EveryWhere -->
+      - Mateial is a design system create ( and heavily used ) by google.
+      - It's not google style for everyone | its indeed highly customizable ( and work on ison devices , too )
+      - material design is build into flutter but you also find apple-styled ( Cupertino ) widgest
+
+
+
+
+
+
